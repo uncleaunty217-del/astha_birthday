@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Happy Birthday, Astha! · Mii Ash</title>
+  <meta name="description" content="A little birthday note and scrapbook for Astha (Mii Ash), from your Kuchu Puchu Bruhh.">
+  <meta name="theme-color" content="#cfe3f7">
+  <meta name="color-scheme" content="light">
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- Social preview. For link previews to show the photo, replace these with your full https:// URL after deploying. -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Happy Birthday, Astha! 🩷">
+  <meta property="og:description" content="A little something from your Kuchu Puchu Bruhh.">
+  <meta property="og:image" content="local-assets/cover.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A9%B5%3C/text%3E%3C/svg%3E">
+
+  <!-- Mark JS early so content never stays hidden if scripts fail -->
+  <script>document.documentElement.classList.add('js');</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#note">Skip to the note</a>
+
+  <!-- Floating sparkles (decorative, filled by script.js) -->
+  <div class="sparkles" id="sparkles" aria-hidden="true"></div>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero" id="top">
+    <img class="hero__bg" src="local-assets/cover.jpg" alt="" aria-hidden="true" width="1400" height="1867" fetchpriority="high">
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <span class="cloud cloud--1" aria-hidden="true"></span>
+    <span class="cloud cloud--2" aria-hidden="true"></span>
+
+    <div class="hero__inner">
+      <div class="hero__text">
+        <p class="hero__kicker enter" style="--i:0">✦ &nbsp;a little something&nbsp; ✦</p>
+        <h1 class="hero__title enter" style="--i:1">Happy Birthday, <span>Astha!</span></h1>
+        <p class="hero__nick enter" style="--i:2">Mii Ash</p>
+        <p class="hero__from enter" style="--i:3">A little something from your Kuchu Puchu Bruhh</p>
+        <button class="btn enter" style="--i:4" id="open-note" type="button">
+          <span>Open My Note</span>
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 5v14m0 0l-6-6m6 6l6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+
+      <figure class="hero__frame enter" style="--i:2">
+        <img src="local-assets/cover.jpg" width="1400" height="1867" alt="A smiling woman in a dark kurta standing by a calm lake while the sun breaks through glowing clouds">
+      </figure>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ NOTE ============ -->
+    <section class="section note" id="note" aria-labelledby="note-title">
+      <span class="cloud cloud--3" aria-hidden="true"></span>
+      <span class="cloud cloud--4" aria-hidden="true"></span>
+      <span class="star-doodle" style="top:8%;left:9%" aria-hidden="true">✦</span>
+      <span class="star-doodle" style="top:18%;right:8%;--s:.7" aria-hidden="true">✧</span>
+      <span class="star-doodle" style="bottom:12%;left:6%;--s:.8" aria-hidden="true">✧</span>
+      <span class="star-doodle" style="bottom:7%;right:11%" aria-hidden="true">✦</span>
+
+      <div class="paper" data-reveal>
+        <span class="tape tape--blue tape--top-left" aria-hidden="true"></span>
+        <span class="tape tape--white tape--top-right" aria-hidden="true"></span>
+
+        <h2 class="hand-title" id="note-title" tabindex="-1">A note for you, Mii Ash</h2>
+        <div class="paper__rule" aria-hidden="true"></div>
+
+        <div class="note__body" id="note-body">
+          <p data-reveal style="--i:1">i know we are not talking as much as we used to talk but bro you still my mii ash and i have always have room for you , cause i dont wanna lose this friendship this bond, i don't know whats going on in your life but i hope you are doing great,bahut english likh diya broo,</p>
+          <p data-reveal style="--i:2">so mujhe teri bahut yaad aati tbh thikk hai so so maat sochna tera yeh dost dur chala gya hai , mein hoon haar shamaya idhar okay,</p>
+          <p data-reveal style="--i:3">everytime mein tere liye song sunta hoon i think of you , the bond and friendship i share is never fake ,</p>
+          <p data-reveal style="--i:4">i hope ki tu apna birthday enjoy kare , aur bahut saara pyaar bruhh kuchu puchu thik hai naaa .....</p>
+        </div>
+
+        <svg class="doodle-heart doodle-heart--note" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5C6 16.5 3 13 3 9.2 3 6.6 5 5 7.2 5c1.9 0 3.9 1.1 4.8 3 .9-1.9 2.9-3 4.8-3C19 5 21 6.6 21 9.2c0 3.8-3 7.3-9 11.3z"/></svg>
+      </div>
+    </section>
+
+    <!-- ============ SCRAPBOOK ============ -->
+    <section class="section scrapbook" id="memories" aria-labelledby="memories-title">
+      <h2 class="hand-title hand-title--center" id="memories-title" data-reveal>Mii Ash's scrapbook</h2>
+      <p class="section__sub" data-reveal style="--i:1">tap a photo to see it bigger</p>
+
+      <ul class="polaroids" role="list">
+        <li class="polaroid" style="--r:-3.5deg;--i:0" data-reveal>
+          <button class="polaroid__btn" type="button" data-index="0" aria-haspopup="dialog" aria-label="Open photo 1 of 4: woman in a grey and white saree standing in front of a glass door">
+            <span class="tape tape--blue" aria-hidden="true"></span>
+            <img src="local-assets/memory-1.jpg" width="1026" height="1368" loading="lazy" decoding="async" alt="A smiling woman in a light grey and white striped saree with a golden border, holding a sparkler, standing in front of a glass door at night">
+            <span class="polaroid__cap">my mii ash</span>
+          </button>
+          <svg class="doodle-heart doodle-heart--a" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5C6 16.5 3 13 3 9.2 3 6.6 5 5 7.2 5c1.9 0 3.9 1.1 4.8 3 .9-1.9 2.9-3 4.8-3C19 5 21 6.6 21 9.2c0 3.8-3 7.3-9 11.3z"/></svg>
+        </li>
+
+        <li class="polaroid" style="--r:2.8deg;--i:1" data-reveal>
+          <button class="polaroid__btn" type="button" data-index="1" aria-haspopup="dialog" aria-label="Open photo 2 of 4: woman laughing while holding a small black puppy">
+            <span class="tape tape--white" aria-hidden="true"></span>
+            <svg class="clip" viewBox="0 0 24 40" aria-hidden="true"><path d="M8 6v22a5 5 0 0 0 10 0V9a3.5 3.5 0 0 0-7 0v17a1.6 1.6 0 0 0 3.2 0V10"/></svg>
+            <img src="local-assets/memory-2.jpg" width="1200" height="1600" loading="lazy" decoding="async" alt="A woman in a soft pink top crouching on a quiet street at night, laughing as she holds up a small black and tan puppy">
+            <span class="polaroid__cap">always have room for you</span>
+          </button>
+          <svg class="doodle-heart doodle-heart--b" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5C6 16.5 3 13 3 9.2 3 6.6 5 5 7.2 5c1.9 0 3.9 1.1 4.8 3 .9-1.9 2.9-3 4.8-3C19 5 21 6.6 21 9.2c0 3.8-3 7.3-9 11.3z"/></svg>
+        </li>
+
+        <li class="polaroid" style="--r:-2deg;--i:2" data-reveal>
+          <button class="polaroid__btn" type="button" data-index="2" aria-haspopup="dialog" aria-label="Open photo 3 of 4: woman in a maroon striped shirt on a tree-lined road">
+            <span class="tape tape--blue" aria-hidden="true"></span>
+            <img src="local-assets/memory-3.jpg" width="1200" height="1600" loading="lazy" decoding="async" alt="A smiling woman in a maroon and white striped shirt with one hand in her hair, standing on a quiet road lined with tall coconut palms and green trees">
+            <span class="polaroid__cap">the bond is never fake</span>
+          </button>
+          <svg class="clip clip--side" viewBox="0 0 24 40" aria-hidden="true"><path d="M8 6v22a5 5 0 0 0 10 0V9a3.5 3.5 0 0 0-7 0v17a1.6 1.6 0 0 0 3.2 0V10"/></svg>
+        </li>
+
+        <li class="polaroid" style="--r:3.6deg;--i:3" data-reveal>
+          <button class="polaroid__btn" type="button" data-index="3" aria-haspopup="dialog" aria-label="Open photo 4 of 4: woman laughing on a green forest road">
+            <span class="tape tape--white" aria-hidden="true"></span>
+            <img src="local-assets/memory-4.jpg" width="1200" height="1600" loading="lazy" decoding="async" alt="A woman in a maroon striped shirt laughing out loud on a leafy forest road, with a person on a motorbike far behind her">
+            <span class="polaroid__cap">enjoy your birthday</span>
+          </button>
+          <svg class="doodle-heart doodle-heart--c" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5C6 16.5 3 13 3 9.2 3 6.6 5 5 7.2 5c1.9 0 3.9 1.1 4.8 3 .9-1.9 2.9-3 4.8-3C19 5 21 6.6 21 9.2c0 3.8-3 7.3-9 11.3z"/></svg>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ FINAL WISH ============ -->
+    <section class="section wish" id="wish" aria-labelledby="wish-title">
+      <span class="cloud cloud--5" aria-hidden="true"></span>
+      <span class="star-doodle" style="top:14%;left:14%" aria-hidden="true">✦</span>
+      <span class="star-doodle" style="top:22%;right:14%;--s:.7" aria-hidden="true">✧</span>
+      <span class="star-doodle" style="bottom:16%;right:20%" aria-hidden="true">✦</span>
+
+      <div class="wish__card" data-reveal>
+        <h2 class="wish__title" id="wish-title" data-reveal style="--i:1">Happy Birthday, Mii Ash.</h2>
+        <p class="wish__line" data-reveal style="--i:2">Enjoy every moment of your day.</p>
+        <p class="wish__sign" data-reveal style="--i:3">Bahut saara pyaar — your Kuchu Puchu Bruhh 🩷</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="to-top" href="#top">↑ Back to the top</a>
+  </footer>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+    <div class="lightbox__backdrop" data-close></div>
+    <button class="lb-btn lb-close" type="button" aria-label="Close photo" data-close>
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+    </button>
+    <button class="lb-btn lb-prev" type="button" aria-label="Previous photo">
+      <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <button class="lb-btn lb-next" type="button" aria-label="Next photo">
+      <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <figure class="lightbox__fig">
+      <img id="lb-img" alt="">
+      <figcaption id="lb-cap"></figcaption>
+    </figure>
+    <p class="lightbox__count" id="lb-count" aria-live="polite"></p>
+  </div>
+
+  <!-- ============ MUSIC ============ -->
+  <div class="music" id="music">
+    <div class="music__panel" id="music-panel" aria-hidden="true">
+      <div class="music__head">
+        <span>Our song</span>
+        <button type="button" class="music__hide" id="music-hide" aria-label="Hide the video player (music keeps playing)">Hide</button>
+      </div>
+      <div class="music__video"><div id="yt-player"></div></div>
+      <p class="music__note" id="music-note" role="status">
+        Press play to start — nothing plays on its own.
+        <a href="https://youtu.be/oQaWXlsSW2c" target="_blank" rel="noopener noreferrer">Open on YouTube</a>
+      </p>
+    </div>
+    <button class="music__fab" id="music-btn" type="button" aria-pressed="false" aria-controls="music-panel">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="icon-play"><path d="M9 18V6l10-2v12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="18" r="2.5" fill="currentColor"/><circle cx="17" cy="16" r="2.5" fill="currentColor"/></svg>
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="icon-pause"><path d="M8 5v14M16 5v14" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+      <span class="music__label" id="music-label">Play our song</span>
+    </button>
+  </div>
+
+  <noscript><p class="noscript">Tip: turn on JavaScript to see the confetti, photo viewer and music button.</p></noscript>
+  <script src="script.js"></script>
+</body>
+</html>
